@@ -12,4 +12,10 @@ ___
 ___
 
 # **🔗 Deployed Link**
-[![Mytheresa Website Clone](https://www.absence.io/assets/images/logos/logo_mytheresa.png)](www.mytheresa.com)
+_This project is deployed on netlify here - [Mytheresa website clone](www.mytheresa.com)_
+
+# **Snapshots**
+
+
+![Logo](https://www.absence.io/assets/images/logos/logo_mytheresa.png)
+
