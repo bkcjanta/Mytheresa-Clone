@@ -6,4 +6,4 @@ Team members:-                task:-
 1) Hena Chauhan      -      Signup/Signin   
 2) Shivam Gupta      -      Shopping Bag
 3) Sheetal Bisht     -      Product + Home
-4) Geetanjali makadi -      Navbar + footer
+4) Gitanjali makadi -      Navbar + footer
