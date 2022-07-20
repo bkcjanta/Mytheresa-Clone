@@ -3,13 +3,13 @@ _Mytheresa is a German luxury fashion e-commerce company headquartered in Munich
 ___
 
 # **Team Members**
-- ###  _[Team Leader- Bhupendra Kumar Chandrakar](https://github.com/bkcjanta)_ 
-- ###  _[Member 1- Hena Chauhan](https://github.com/hena1019)_
-- ###  _[Member 2- Shivam Gupta](https://github.com/shivamgme8881)_
-- ###  _[Member 3- Sheetal Bisht](https://github.com/sheetalbisht2001)_
-- ###  _[Member 4- Gitanjali Makadi](https://github.com/geetamakadi123)_
+- _[Team Leader- Bhupendra Kumar Chandrakar](https://github.com/bkcjanta)_ 
+-   _[Member 1- Hena Chauhan](https://github.com/hena1019)_
+-  _[Member 2- Shivam Gupta](https://github.com/shivamgme8881)_
+-  _[Member 3- Sheetal Bisht](https://github.com/sheetalbisht2001)_
+- _[Member 4- Gitanjali Makadi](https://github.com/geetamakadi123)_
 
 ___
 
 # **🔗 Deployed Link**
-[![Mytheresa Website Clone](https://www.pinterest.com/pin/mytheresa-logo-liked-on-polyvore-featuring-logo-text-phrase-quotes-and-saying--42362052728192286/)](www.mytheresa.com)
+[![Mytheresa Website Clone](https://www.absence.io/assets/images/logos/logo_mytheresa.png)](www.mytheresa.com)
