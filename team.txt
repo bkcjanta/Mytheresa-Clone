@@ -3,7 +3,7 @@ Project Code :- detailed-orange-964
 Team Lead:- Bhupendra kumar chandrakar - Delivery + Payment
 
 Team members:-                task:-
-1) Hena Chauhan      -      Signup/Signin   
+1) Hena Chauhan      -      Signup/Signin + Home Page 
 2) Shivam Gupta      -      Shopping Bag
-3) Sheetal Bisht     -      Product + Home
+3) Sheetal Bisht     -      Product 
 4) Gitanjali makadi -      Navbar + footer
