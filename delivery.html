@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>delivery</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        #header{
+            width: 100%;
+            height: 150px;
+            align-items: center;
+            text-align: center;
+        }
+        #logo{
+            width: 300px;
+            height: 35px;
+            margin-top: 100px;
+
+        
+
+         
+        }
+        #list{
+            width: 100%;
+            height: 40px;
+            margin-top: 20px;
+            border-bottom: 1px solid black;
+            display: flex;
+            justify-content:space-around;
+
+        }
+        #list a{
+            text-decoration: none;
+            color: #757575;
+        }
+        #line{
+            width: 100%;
+            height: 30px;
+            display: flex;
+            margin-top: -8px;
+            justify-content: space-around;
+        }
+        .box{
+            width: 15px;
+            height: 15px;
+            background-color: #bababa;
+        }
+        #line>div:nth-child(2){
+            margin-left: 30px;
+            background-color: black;
+
+        }
+        #line>div:nth-child(1){
+            margin-left: 10px;
+            
+        }
+        #container{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div id="header">
+            <img src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220629T133918" alt="" id="logo">
+        </div>
+        <div class="">
+            <div id="list">
+                <div>
+                    <a href="">SHOPPING BAG</a>
+                </div>
+                <div>
+                    <a href="">DELIVERY</a>
+                </div>
+                <div>
+                    <a href="">PAYMENT</a>
+                </div>
+                <div>
+                    <a href="">CONFIRM</a>
+                </div>
+    
+            </div>
+            <div id="line">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+
+        <div id="container">
+            <div id="left"></div>
+            <div id="right"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
