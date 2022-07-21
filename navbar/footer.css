@@ -1,0 +1,130 @@
+
+    .download-app{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+
+    }
+  .list-head{
+      text-align: center;
+      margin-bottom: 20px;
+      font-weight: 10;
+        font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    letter-spacing: .4px;
+    color:rgb(39, 39, 39);
+    }
+    #footer-row1{
+         border: 1px solid gray; 
+        height: 100px;
+        width: 100%;
+        /* display: flex; */
+    /* margin: auto; */
+    row-gap: 30px
+    
+    
+    
+    }
+    #footer_paymentmethods{
+    height: 40px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.para{
+    font-weight: 10;
+        font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    letter-spacing: .4px;
+    color:rgb(39, 39, 39);
+}
+
+.paymentMethods-1{
+    height: 30px;
+    width: 45%;
+    display: flex;
+    /* border: none; */
+    font-size: 15px;
+    align-items: center;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+}
+.social-media .icon {
+    width: 20px;
+    height: 20px;
+    text-indent: -9999em;
+    overflow: hidden;
+    background-color: black;
+}
+#information{
+     border: 1px solid rgb(155, 153, 153);
+        height: 300px;
+        width: 100%;
+        display: flex;
+    /* margin: auto; */
+    /* row-gap: 20px
+    */
+    
+    
+    
+}
+ .footersocial_media{
+    margin-left: 400px;
+    margin-top: 100px;
+
+} 
+.footersocial_media2{
+    margin-left: 20px;
+    margin-bottom:100px;
+} 
+.footersocial_media3{
+    margin-left: 70px;
+    margin-bottom:100px;
+} 
+.footersocial_media4{
+    margin-left: 120px;
+    margin-bottom:100px;
+} 
+li>a{
+    text-decoration: none;
+    
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    letter-spacing: .4px;
+    color:gray;
+}
+li>a:hover {
+    text-decoration: none;
+    color: black;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    letter-spacing: .4px;
+    
+}
+.footer_copy{
+    display: flex;
+    justify-content: space-between;
+}
+.terms{
+    display: flex;
+    justify-content: flex-start;
+}
+#footersection-maincontainer{
+    border: 1px solid rgb(160, 159, 159);
+    margin-top: 10px;
+}
+.p{
+   text-align: center;
+   color:gray;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    padding: 10px;
+    background-color: gainsboro;
+    color: rgb(51, 50, 50);
+    border:none;
+}
