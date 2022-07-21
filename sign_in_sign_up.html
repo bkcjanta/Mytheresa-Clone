@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./sign_in_sign_up.css" />
 </head>
 <body>
     <!-- <-------------------------------------------Sign-Up---------------------------> 
@@ -73,11 +74,40 @@
                         <div id="signupRegister">
                             <input type="submit" value="Register" id="signupbut">
                         </div>
-                    
-                    
                 </form>
             </div>
+
 <!-- <-------------------------------------------Signin---------------------------> 
+
+<div id="signinPage">
+    <form id="signInPage">
+    <div id="siginDetailsText">
+        <div class="siginText">
+            <p class="firstText">ALREADY REGISTER</p>
+        </div>
+        <div class="siginText1">
+            <p>If you have an account with us, please log in.</p>
+        </div>   
+    </div>          
+        <div class="siginDetails">
+            <input type="email" name="email" id="siginEmail" placeholder="Email Address*">
+            <br>
+            <input type="password" name="passwrod" id="siginPassword" placeholder="Password*">
+        </div>
+        <div class="signinfinal">
+            <p>* Required Fields</p>
+            <h4> <u> Forget Password</u></h4>
+            <p>At Mytheresa, we keep your information secure. As a result, it will be necessary for you to log in to your account before you are able to place an order or change the information on your account. You will be asked to log in to complete your order even if you have already been greeted on the website.</p>
+        </div>
+        <div id="siginLogin">
+            <input type="submit" value="Login" id="login">
+        </div>
+    </form>
+</div>
+</div>
+<hr>
 </div>
 </body>
 </html>
+
+<script src="./sign_in_sign_up.js"></script>
