@@ -1,0 +1,233 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #navbar{
+        display:flex;
+        /* justify-content: space-around; */
+        width:100%;
+        height:60px;
+        border:3px solid whitesmoke;
+    }
+    #navbarc1{
+        display:flex;
+        /* border:1px solid red; */
+        margin-left:20px;
+       
+    }
+    #navbarc1>div{
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    #navbarc2{
+        display:flex;
+        /* border:1px solid red; */
+        margin-left:660px;
+        font-weight: bold;
+    }
+    #navbarc2>div{
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    #middle{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.945);
+    }
+    #navbar2{
+       display:flex;
+       width:100%;
+       height:70px;
+       border:3px solid whitesmoke;
+    }
+    #navbar2c1{
+        display:flex;
+        /* border:1px solid red; */
+        font-size: 14px;
+    }
+    #navbar2c1>div{
+        margin-left: 20px;
+        margin-top: 14px;
+        cursor:pointer;
+    }
+    #navbar2c2{
+        display:flex;
+        border:0.1px solid black;
+        margin-left: 200px;
+        width:250px;
+        height:40px;
+        margin-top: 20px;
+
+    }
+    #navbar2c2>img{
+        width:25px;
+        height:25px;
+        margin-top:10px;
+        display: block;
+        padding-right: 10px;
+       
+    }
+    #navbar2c2>input{
+        /* width:200px; */
+        height:100%;
+        width:100%;
+        border: 0px;
+        padding-top: 10px;
+       
+    }
+    h2{
+        text-align: center;
+        color: #9f2943
+    }
+    #bottom{
+        width:420px;
+        height:100px;
+        margin:auto;
+    }
+    #bottom>h4{
+        padding-left: 75px;
+    }
+    #bottom1{
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(1,800px);
+        gap:10px;
+        width:1000px;
+        height:300px;
+        border-bottom:4px solid whitesmoke;
+        margin:auto;
+        text-align: center;
+    }
+    #bottom1>div{
+        width:240px;
+        height:250px;
+    }
+    #bottom1>div>img{
+        width:100%;
+        height:100%;
+    }
+    h3{
+        text-align: center;
+    }
+    #lastbottom{
+        display:flex;
+        gap:20px;
+        width:900px;
+        height:300px;
+        /* border:1px solid red; */
+        margin:auto;
+    }
+    #lastbottom>div{
+        width:450px;
+        height:100%;
+        border:0.002px solid rgb(216, 230, 215);
+        /* padding-left: 50px; */
+    }
+    #lastbottom>div:nth-child(2)>p:nth-child(2){
+        margin-top: 30px;
+        text-align: center;
+      
+        padding-left: 5px;
+    }
+    #lastbottom>div>img{
+        display:block;
+        width:50px;
+        height:40px;
+        margin:auto;
+        margin-top: 50px;
+    }
+    #lastbottom>div:nth-child(1){
+        text-align: center;
+    }
+    #lastbottom>div:nth-child(1)>p:hover{
+        cursor: pointer;
+    }
+    #lastbottom>div:nth-child(2){
+      padding-left: 14px;
+    }
+   
+</style>
+<body>
+    <div id="navbar">
+        <div id="navbarc1">
+           <div><p>WOMEN</p></div>
+           <div><p>MEN</p></div>
+           <div><p>KIDS</p></div>
+           <div><p>LIFE</p></div>
+        </div>
+        <div id="navbarc2">
+            <div><p>My account</p></div>
+            <div><p>My wishlist</p></div>
+            <div><p>International | English</p></div>
+        </div>
+    </div>
+    <div id="middle">
+        <h1>MYTHERESA</h1>
+    </div>
+    <div id="navbar2">
+        <div id="navbar2c1">
+            <div><p>NEW ARRIVALS</p></div>
+            <div><P>DESIGNERS</P></div>
+            <div><P>CLOTHING</P></div>
+            <div><P>SHOES</P></div>
+            <div><P>BAGS</P></div>
+            <div><P>ACCESSORIES</P></div>
+            <div><P>NEW SEASON</P></div>
+            <div><P>VACATION SHOP</P></div>
+            <div><P>SALE</P></div>
+        </div>
+       <div id="navbar2c2">
+        <input type="text" placeholder="Search for...">
+        <img src="https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105__340.png" alt="">
+       </div>
+    </div>
+    <h2>FREE SHIPPING on orders over €800</h2>
+    <div id="bottom">
+        <h4>YOUR SHOPPING BAG IS EMPTY</h4>
+        <P>You currently don't have any items in your shopping bag.
+            Browse through our categories for inspiration.</P>
+    </div>
+    <div id="bottom1">
+        <div>
+            <img src="https://img.mytheresa.com/media/static/raw/cms/l/SM_Monetate_Images/ABtest/Empty_Cart/clothing_2x1_20200907175309.jpg" alt="">
+            <p>Clothing</p>
+        </div>
+        <div>
+            <img src="https://img.mytheresa.com/media/static/raw/cms/l/SM_Monetate_Images/ABtest/Empty_Cart/shoes_2x1_20200907175308.jpg" alt="">
+            <p>Shoes</p>
+        </div>
+        <div>
+            <img src="https://img.mytheresa.com/media/static/raw/cms/l/SM_Monetate_Images/ABtest/Empty_Cart/bags_2x1_20200907175308.jpg" alt="">
+            <p>Bags</p>
+        </div>
+        <div>
+            <img src="https://img.mytheresa.com/media/static/raw/cms/l/SM_Monetate_Images/ABtest/Empty_Cart/acccessories_2x1_20200907175309.jpg" alt="">
+            <p>Accessories</p>
+        </div>
+    </div>
+    <h3>You can also place your order via telephone</h3>
+    <div id="lastbottom">
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNP75oRsN__hG-jEd8sjDqyAnrAy7e9fyJWsg-XWqqJUXp_wM-_objnO5kM36mzYngLN0&usqp=CAU" alt="">
+            <p>+49 89 127695-101</p>
+            <p>Argentina: 0800-666-0663</p>
+            <p>Chile: 800-914-515</p>
+            <p>Colombia: 01800-518-5268</p>
+            <p>Mexico: 01-800-099-0703</p>
+            <p>Available 24/7</p>
+
+        </div>
+        <div>
+            <img src="data:image/png;base64,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" alt="">
+            <p><u>customercare@mytheresa.com</u></p>
+            <p>Please note that due to a high amount of requests, we might take a few days to get back to you. We apologize for any inconvenience this may cause.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
