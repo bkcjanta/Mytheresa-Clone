@@ -84,32 +84,55 @@
         text-align: center;
         color: #9f2943
     }
-    #bottom{
-        width:420px;
-        height:100px;
-        margin:auto;
-    }
-    #bottom>h4{
-        padding-left: 75px;
-    }
     #bottom1{
-        display:grid;
-        grid-template-columns: repeat(4,1fr);
-        grid-template-rows: repeat(1,800px);
-        gap:10px;
+    display:flex;
+    justify-content: space-between;
+    width:1000px;
+    height:200px;
+    border-bottom:1px solid grey;
+    margin:auto;
+    }
+    #bottom1>div:nth-child(1){
+        margin-top: 60px;
+    }
+    #bottom1>div:nth-child(2){
+        margin-top: 60px;
+    }
+    #bottom1>div:nth-child(2)>button{
+        color:white;
+        background-color: black;
+        padding: 10px;
+        cursor: pointer;
+    }
+    #bottom1>div:nth-child(2)>button+div+p{
+        color:black;
+      
+       
+    }
+    #product{
+        display:flex;
         width:1000px;
         height:300px;
-        border-bottom:4px solid whitesmoke;
+        /* border:1px solid red; */
         margin:auto;
-        text-align: center;
+        margin-top: 20px;
     }
-    #bottom1>div{
-        width:240px;
+    #product>div:nth-child(1){
+        width:300px;
         height:250px;
+        /* border:1px solid blue; */
+        margin-left: 5px;
     }
-    #bottom1>div>img{
-        width:100%;
-        height:100%;
+    #product>div:nth-child(2){
+        width:300px;
+        height:250px;
+        /* border:1px solid blue; */
+        margin-left: 5px;
+        padding-top: 70px;
+    }
+    #product>div>img{
+        width:300px;
+        height:250px;
     }
     h3{
         text-align: center;
@@ -187,27 +210,27 @@
        </div>
     </div>
     <h2>FREE SHIPPING on orders over €800</h2>
-    <div id="bottom">
-        <h4>YOUR SHOPPING BAG IS EMPTY</h4>
-        <P>You currently don't have any items in your shopping bag.
-            Browse through our categories for inspiration.</P>
-    </div>
+   
     <div id="bottom1">
+          <div><p>YOUR SHOPPING BAG</p></div>
+          <div>
+           <button>PROCEED TO CHECKOUT</button>
+           <div>
+            <p>Price-€ 1,765.00</p>
+            <p>Quantity-1</p>
+            <p>Subtotal-€ 1,765.00</p>
+           </div>
+          </div>
+    </div>
+    <div id="product">
         <div>
-            <img src="https://img.mytheresa.com/media/static/raw/cms/l/SM_Monetate_Images/ABtest/Empty_Cart/clothing_2x1_20200907175309.jpg" alt="">
-            <p>Clothing</p>
+            <img src="https://img.mytheresa.com/240/240/90/jpeg/catalog/product/a6/P00707133.jpg" alt="">
         </div>
         <div>
-            <img src="https://img.mytheresa.com/media/static/raw/cms/l/SM_Monetate_Images/ABtest/Empty_Cart/shoes_2x1_20200907175308.jpg" alt="">
-            <p>Shoes</p>
-        </div>
-        <div>
-            <img src="https://img.mytheresa.com/media/static/raw/cms/l/SM_Monetate_Images/ABtest/Empty_Cart/bags_2x1_20200907175308.jpg" alt="">
-            <p>Bags</p>
-        </div>
-        <div>
-            <img src="https://img.mytheresa.com/media/static/raw/cms/l/SM_Monetate_Images/ABtest/Empty_Cart/acccessories_2x1_20200907175309.jpg" alt="">
-            <p>Accessories</p>
+            <p>BOTTEGA VENETA</p>
+            <p>Cassette leather shoulder bag</p>
+            <p>One size fits all</p>
+            <p>Item No.:P00707133</p><br>
         </div>
     </div>
     <h3>You can also place your order via telephone</h3>
