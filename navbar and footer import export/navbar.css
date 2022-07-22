@@ -17,6 +17,24 @@
         
         
         }
+        .aa{
+          font-weight:bold;
+        }
+        .women{
+        margin-right: 30px;
+        margin-left: 20px;
+        font-weight: 10;
+        font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    letter-spacing: .4px;
+    text-align: center;
+        }
+        .women{
+          background-color: rgb(255, 255, 255);
+        }
+        .women:hover{
+          background-color: rgb(223, 221, 221);
+        }
         
         
         p{
@@ -154,9 +172,9 @@ width: 18px;
 
 }
 img{
-  margin-top: 70px;
-  height: 30px;
-  width: 230px;
+  margin-top: 40px;
+  height: 55px;
+  width: 260px;
   margin-left: 300px;
 }
 #imagess{
