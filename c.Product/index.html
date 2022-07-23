@@ -1,0 +1,280 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #navbar{
+        display:flex;
+        /* justify-content: space-around; */
+        width:100%;
+        height:60px;
+        border:3px solid whitesmoke;
+    }
+    #navbarc1{
+        display:flex;
+        /* border:1px solid red; */
+        margin-left:20px;
+       
+    }
+    #navbarc1>div{
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    #navbarc2{
+        display:flex;
+        /* border:1px solid red; */
+        margin-left:660px;
+        font-weight: bold;
+    }
+    #navbarc2>div{
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    #middle{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.945);
+    }
+    #navbar2{
+       display:flex;
+       width:100%;
+       height:70px;
+       border:3px solid whitesmoke;
+    }
+    #navbar2c1{
+        display:flex;
+        /* border:1px solid red; */
+        font-size: 14px;
+    }
+    #navbar2c1>div{
+        margin-left: 20px;
+        margin-top: 14px;
+        cursor:pointer;
+    }
+    #navbar2c2{
+        display:flex;
+        border:0.1px solid black;
+        margin-left: 200px;
+        width:250px;
+        height:40px;
+        margin-top: 20px;
+
+    }
+    #navbar2c2>img{
+        width:25px;
+        height:25px;
+        margin-top:10px;
+        display: block;
+        padding-right: 10px;
+       
+    }
+    #navbar2c2>input{
+        /* width:200px; */
+        height:100%;
+        width:100%;
+        border: 0px;
+        padding-top: 10px;
+       
+    }
+    h3{
+        text-align: center;
+        color: #9f2943
+    }
+
+    #changer{
+        display:flex;
+        width:1000px;
+        height:400px;
+        /* border:1px solid red; */
+        margin:auto
+    }
+    #changer>div:nth-child(1){
+        width:45%;
+        position: relative;
+        margin: auto;
+    }
+    #changer>div:nth-child(1)>img{
+        width:60%;
+    }
+    #changer>div:nth-child(1)>button{
+        position: absolute;
+        top:45%;
+          /* left: 15%;  */
+        right: 110%; 
+        background-color: black;
+        border-radius: 100%;
+        font-size: 15px;
+        color: white;
+        width:50px;
+        height:50px;
+        border: 0px;
+    }
+    #changer>div:nth-child(1)>button:nth-child(1){
+        left:2%;
+    }
+    #changer>div:nth-child(1)>button:nth-child(2){
+        right:2%;
+    }
+    #changer>div:nth-child(2){
+        width:25%;
+        height:50%;
+        /* border:1px solid black; */
+        margin-top: 70px;
+    }
+    #changer>div:nth-child(2)>p{
+        color:grey
+    }
+    #changer>div:nth-child(2)>p:nth-child(1){
+        font-size: 25px;
+        color: black;
+    }
+    #changer>div:nth-child(2)>p:nth-child(3){
+        font-weight: bold;
+        color: black;
+    }
+    #changer>div:nth-child(2)>button{
+        padding: 5px 35px 5px 35px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        margin-top: 30px;
+    }
+    h1{
+        text-align: center;
+    }
+    #final{
+        width:1000px;
+        height:400px;
+        /* border:1px solid black; */
+        display:flex;
+        margin:auto;
+        gap:10px;
+        text-align: center;
+    }
+    #final>div{
+        width:300px;
+        height:500px;
+    }
+    #final>div>img{
+        width:100%;
+        height:60%;
+    }
+</style>
+<body>
+    <div id="navbar">
+        <div id="navbarc1">
+           <div><p>WOMEN</p></div>
+           <div><p>MEN</p></div>
+           <div><p>KIDS</p></div>
+           <div><p>LIFE</p></div>
+        </div>
+        <div id="navbarc2">
+            <div><p>My account</p></div>
+            <div><p>My wishlist</p></div>
+            <div><p>International | English</p></div>
+        </div>
+    </div>
+    <div id="middle">
+        <h1>MYTHERESA</h1>
+    </div>
+    <div id="navbar2">
+        <div id="navbar2c1">
+            <div><p>NEW ARRIVALS</p></div>
+            <div><P>DESIGNERS</P></div>
+            <div><P>CLOTHING</P></div>
+            <div><P>SHOES</P></div>
+            <div><P>BAGS</P></div>
+            <div><P>ACCESSORIES</P></div>
+            <div><P>NEW SEASON</P></div>
+            <div><P>VACATION SHOP</P></div>
+            <div><P>SALE</P></div>
+        </div>
+       <div id="navbar2c2">
+        <!-- <input type="text" placeholder="Search for...">
+        <img src="https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105__340.png" alt=""> -->
+       </div>
+    </div>
+    <h3>Get 10% off your first order when you spend over €600</h3>
+    <div>Women/Bottega/Veneta/Bags/Shoulder/Bags/Cassette/leather/shoulder/bag>
+    </div>
+    <div id="changer">
+        <div>
+            <img src="https://img.mytheresa.com/258/258/33/jpeg/catalog/product/a6/P00707133_d2.jpg" alt="">
+            <button>></button>
+            <button><</button>
+        </div>
+        <div>
+           <p>BOTTEGA VENETA</p>
+           <p>Cassette leather shoulder bag</p>
+           <p>€ 1,765</p>
+           <p>VAT exception. VAT not included.
+            item no. P00707133
+            </p>
+            <button id="rider">ADD TO SHOPPING BAG</button>  
+        </div>
+    </div>
+    <h1>Style With</h1>
+   <div id="final">
+    <div>
+        <img src="https://img.mytheresa.com/380/380/90/jpeg/catalog/product/70/P00676084.jpg" alt="">
+        <p>BOTTEGA VENETA</p>
+        <p>€ 2,439</p>
+    </div>
+    <div>
+        <img src="https://img.mytheresa.com/580/580/90/jpeg/catalog/product/a6/P00707133_b1.jpg" alt="">
+    </div>
+    <div>
+        <img src="https://img.mytheresa.com/380/380/90/jpeg/catalog/product/50/P00648561.jpg" alt="">
+        <p>BOTTEGA VENETA</p>
+        <p>€ 635</p>
+    </div>
+   </div>
+</body>
+</html>
+<script>
+    let img=document.querySelector('img');
+
+    let buttons=document.querySelectorAll('button');
+
+    let imgNum=0;
+    let imgArr=[
+        "https://img.mytheresa.com/258/258/33/jpeg/catalog/product/a6/P00707133_d2.jpg",
+    'https://img.mytheresa.com/258/258/33/jpeg/catalog/product/a6/P00707133_d3.jpg',
+    'https://img.mytheresa.com/258/258/33/jpeg/catalog/product/a6/P00707133_d5.jpg' ]
+
+    buttons[0].addEventListener('click',function(){
+        if(imgNum===0){
+
+            imgNum=imgArr.length-1;
+        }
+        else{
+              imgNum--;
+        }
+        img.src=imgArr[imgNum];
+    })
+
+    buttons[1].addEventListener('click',function(){
+        if(imgNum===imgArr.length-1){
+
+            imgNum=0;
+        }
+        else{
+              imgNum++;
+        }
+        img.src=imgArr[imgNum];
+    })
+
+    let button1=document.querySelector('#rider')
+    button1.addEventListener('click',myaction)
+
+    function myaction(){
+        alert ('Product add to bag')
+    }
+
+
+</script>    
+   
