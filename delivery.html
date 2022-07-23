@@ -1,108 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MyStyle.css">
     <title>delivery</title>
-    <style>
-        body{
-            margin: 0;
-            padding: 0;
-        }
-        #header{
-            width: 100%;
-            height: 150px;
-            align-items: center;
-            text-align: center;
-        }
-        #logo{
-            width: 300px;
-            height: 35px;
-            margin-top: 100px;
 
-        
-
-         
-        }
-        #list{
-            width: 100%;
-            height: 40px;
-            margin-top: 20px;
-            border-bottom: 1px solid black;
-            display: flex;
-            justify-content:space-around;
-
-        }
-        #list a{
-            text-decoration: none;
-            color: #757575;
-        }
-        #line{
-            width: 100%;
-            height: 30px;
-            display: flex;
-            margin-top: -8px;
-            justify-content: space-around;
-        }
-        .box{
-            width: 15px;
-            height: 15px;
-            background-color: #bababa;
-        }
-        #line>div:nth-child(2){
-            margin-left: 30px;
-            background-color: black;
-
-        }
-        #line>div:nth-child(1){
-            margin-left: 10px;
-            
-        }
-        #container{
-            display: flex;
-            text-align: center;
-            align-items: center;
-            justify-content: space-between;
-        }
-        
-
-    </style>
 </head>
+
 <body>
     <div class="main">
         <div id="header">
-            <img src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220629T133918" alt="" id="logo">
+            <img src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220629T133918"
+                alt="" id="logo">
         </div>
         <div class="">
             <div id="list">
-                <div>
-                    <a href="">SHOPPING BAG</a>
-                </div>
-                <div>
-                    <a href="">DELIVERY</a>
-                </div>
-                <div>
-                    <a href="">PAYMENT</a>
-                </div>
-                <div>
-                    <a href="">CONFIRM</a>
-                </div>
-    
+                <div>SHOPPING BAG</div>
+                <div>DELIVERY</div>
+                <div>PAYMENT</div>
+                <div>CONFIRM</div>
+
             </div>
-            <div id="line">
-                <div class="box"></div>
-                <div class="box"></div>
+            <div id="Box">
+                <div class="box" style="background-color: #a0a0a0;"></div>
+                <div class="box" style="background-color: black;"></div>
                 <div class="box"></div>
                 <div class="box"></div>
             </div>
         </div>
 
         <div id="container">
-            <div id="left"></div>
-            <div id="right"></div>
+            <div id="left-container">
+                <h3>SHIPPING ADDRESS</h3>
+                <p>Please enter your shipping address in the form below.</p>
+                <form action="payment.html" id="form" onsubmit="details(event)">
+                    <div id="radio">
+                        <input type="radio" name="rad" id="" class="rad" value="Ms" checked> <label for="">Ms.*</label>
+                        <input type="radio" name="rad" id="" class="rad" value="Mrs"> <label for="">Mrs.*</label>
+                        <input type="radio" name="rad" id="" class="rad" value="Mr"> <label for="">Mr.*</label>
+                    </div>
+                    <input type="text" name="" id="fname" placeholder="firt name *" required value="" ;> <br>
+                    <input type="text" name="" id="lname" placeholder="last name *" required> <br>
+                    <input type="text" name="" id="company" placeholder="company"> <br>
+                    <input type="text" name="" id="street" placeholder="street *" required> <br>
+                    <input type="text" name="" id="address_line" placeholder="Address line 2"> <br>
+                    <input type="number" name="" id="pascode" placeholder="passcode *" required> <br>
+                    <input type="text" name="" id="city" placeholder="city *" required> <br>
+                    <select name="" id="country">
+                        <option value="india">India</option>
+                        <option value="germany">Germany</option>
+                        <option value="south africa"> South Africa</option>
+                        <option value="canada"> Canada</option>
+                    </select><br>
+                    <input type="number" name="" id="mobile" placeholder="mobile phone *" required>
+                    <p>* required field.</p>
+                </form>
+            </div>
+            <div id="right-container">
+                <h3>SHIPPING ADDRESS</h3>
+                <p>Due to a high volume of orders, delays of up to 4 days may occur. We apologize for any inconvenience
+                    this may cause.</p>
+                <div id="shipping-method">
+                    <div id="express">
+                        <input type="radio" name="" id="exp" value="express" checked> <label class="font" for="">Express</label>
+                    </div>
+                    <p>€ 0.00</p>
+                </div>
+                <h3>PACKAGING OPTIONS</h3>
+                <div id="packaging-opt">
+                    <div>
+                        <input type="radio" name="pack" id="" checked> <label class="font" for="">Mytheresa Packahing</label>
+                        <p>FREE</p>
+                        <img src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/package/package_mytheresa_2x.jpg"
+                            alt="">
+                    </div>
+                    <div>
+                        <input type="radio" name="pack" id="pack"> <label class="font" for="">Eco Packahing</label>
+                        <p>FREE</p>
+                        <img src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/package/package_brown_2x.jpg"
+                            alt="">
+                    </div>
+                </div>
+            </div>
         </div>
+
     </div>
-    
+    <div id="btn">
+        <div id="back-to">
+            <a href="">BACK TO SHOPPING BAG</a>
+        </div>
+        <button type="submit" id="proceed-to" form="form" >PROCEED TO CHECKOUT</button>
+
+    </div>
+    </div>
+
 </body>
+<script src="delivery.js"></script>
+
 </html>

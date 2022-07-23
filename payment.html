@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MyStyle.css">
+    <title>Payment</title>
+
+</head>
+
+<body>
+    <div class="main">
+        <div id="header">
+            <img src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220629T133918"
+                alt="" id="logo">
+        </div>
+        <div class="">
+            <div id="list">
+                <div>
+                    <a href="">SHOPPING BAG</a>
+                </div>
+                <div>
+                    <a href="">DELIVERY</a>
+                </div>
+                <div>
+                    <a href="">PAYMENT</a>
+                </div>
+                <div>
+                    <a href="">CONFIRM</a>
+                </div>
+
+            </div>
+            <div id="Box">
+                <div class="box" style="background-color: #a0a0a0;"></div>
+                <div class="box" style="background-color: #a0a0a0;"></div>
+                <div class="box" style="background-color: black;"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+
+        <div id="payment-method">
+            <h3>PAYMENT METHOD</h3>
+            <p>Please select your preferred payment method for this order.</p>
+        </div>
+
+        <div id="container">
+            <div id="left-container" style="border: 0px;">
+                <div id="card">
+                    <input type="radio" name="" id="card-radio" checked="checked">
+                    <img id="card-icon" src="https://cdn-icons-png.flaticon.com/128/747/747396.png" alt="">
+                    <h3>Card</h3>
+                </div>
+
+            </div>
+            <div id="right-container">
+                <img id="methods-icon" src="https://www.rhodesgraduation.com/wp-content/uploads/cards.png" alt="">
+                <form action="" id="payment-form">
+                    <label for="">Name on card *</label> <br>
+                    <input type="text" name="" id="card-holder-name" value="" placeholder="Card Holder Name *" required="required" maxlength="26"> <br>
+                    <label for="">Card Number *</label><br>
+                    <input type="tel" name="" id="card-number" value="" maxlength="16" pattern="[0-9]{16}"  placeholder="1111 2222 3333 4444" oninput="cardNum()">
+                    <span id="num_err" class="err_msg"></span>
+                    <div id="exp-cvv">
+                        <div>
+                            <label for="">Expiration Date *</label><br>
+                            <input type="tel" name="" id="exp-date" placeholder="MM/YY" maxlength="4" value="" pattern="[0-9]{4}" oninput="expDate()" required>
+                            <span id="exp_err" class="err_msg"></span>
+                        </div>
+                        <div>
+                            <label for="">CVC / CVV *</label><br>
+                            <input type="tel" name="" id="cvv" placeholder="123" maxlength="3" value="" pattern="[0-9]{3}" oninput="Cvv()" required>
+                            <span id="cvv_err" class="err_msg"></span>
+                        </div>
+                    </div>
+                    <p>* required fields</p>
+
+                </form>
+            </div>
+
+        </div>
+        <div id="btn">
+            <div id="back-to">
+                <a href="delivery.html">BACK TO DELIVERY</a>
+            </div>
+            <div id="proceed-to">
+                <button   type="button" form="payment-form" >
+                    PROCEED TO CHECKOUT
+                </button>
+            </div>
+
+        </div>
+        <div id="processing">
+            <!-- append processing gif -->
+        </div>
+    </div>
+
+</body>
+<script src="payment.js"></script>
+</html>
+

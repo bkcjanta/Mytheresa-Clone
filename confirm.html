@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MyStyle.css">
+    <title>Payment</title>
+    <style>
+        #main-block {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            margin: auto;
+            justify-content: space-between;
+            
+        }
+
+        #left-block {
+            width: 48%;
+            height: 270px;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+           
+
+        }
+
+        #right-block {
+            width: 48%;
+            height: 270px;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+    
+
+        }
+
+        #order-review {
+            width: 92%;
+            margin-left: 65px;
+
+        }
+        #ship{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #details>p{
+            font-size: 14px;
+
+        }
+        #add-change:hover{
+            cursor: pointer;
+        }
+        #right-block>div>p{
+            margin-top: -16px;
+        }
+        #producr-price{
+            display: flex;
+            width: 90%;
+            justify-content: space-between;
+            margin: auto;
+        }
+        #total-products{
+            width: 90%;
+            margin: auto;
+            border-top:1px solid black ;
+            border-bottom:1px solid black ;
+        }
+        #product{
+            display: flex;
+            width: 100%;
+            margin: auto;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        #img_detail{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            
+        }
+        #img_detail>img{
+            width: 120px;
+            height: 100px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <div id="header">
+            <img src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220629T133918"
+                alt="" id="logo">
+        </div>
+        <div class="">
+            <div id="list">
+                <div>
+                    <a href="">SHOPPING BAG</a>
+                </div>
+                <div>
+                    <a href="">DELIVERY</a>
+                </div>
+                <div>
+                    <a href="">PAYMENT</a>
+                </div>
+                <div>
+                    <a href="">CONFIRM</a>
+                </div>
+
+            </div>
+            <div id="Box">
+                <div class="box" style="background-color: #a0a0a0;"></div>
+                <div class="box" style="background-color: #a0a0a0;"></div>
+                <div class="box" style="background-color: #a0a0a0;"></div>
+                <div class="box" style="background-color: black;"></div>
+            </div>
+        </div>
+
+        <div id="order-review">
+            <h3>ORDER REVEIW</h3>
+            <p>Please review your order, confirm that you have read and accept our terms and conditions, and then click
+                "complete purchase."</p>
+        </div>
+
+        <div id="main-block">
+            <div id="left-block">
+                <div id="ship">
+                    <h3>SHIPPING ADDRESS</h3>
+                    <H3 id="add-change" >> change</H3>
+                </div>
+                <div id="details">
+                    <!-- append delivery details here -->
+                </div>
+            </div>
+            <div id="right-block">
+                <div >
+                    <h4>SHIPPING METHOD</h4>
+                    <p>Express</p>
+                </div>
+                <div>
+                    <h4>PACKAGING OPTION</h4>
+                    <p>Myntra Packaging</p>
+                </div>
+                <div>
+                    <h4>PAYMENT METHOD</h4>
+                    <p>Card</p>
+                </div>
+            </div>
+        </div>
+        <div id="producr-price">
+            <h3>PRODUCTS</h3>
+            <h3>PRICE</h3>
+        </div>
+        <div id="total-products" >
+        </div>
+        <div id="btn">
+            <div id="back-to">
+                <a href="payment.html">BACK TO PAYMENT</a>
+            </div>
+            <div id="proceed-to">
+                <button type="button" form="payment-form">
+                    PROCEED TO CHECKOUT
+                </button>
+            </div>
+
+        </div>
+        <div id="processing">
+            <!-- append processing gif -->
+        </div>
+    </div>
+
+</body>
+<script src="confirm.js"></script>
+
+</html>
