@@ -25,6 +25,12 @@
     
     
     }
+    
+    #hr{
+        height: 35px;
+        width: 500px;
+        
+    }
     #footer_paymentmethods{
     height: 40px;
     /* border: 2px solid red; */
