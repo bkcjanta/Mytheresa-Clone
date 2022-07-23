@@ -2,7 +2,7 @@ function navbar(){
     return` <div class="gr">
     <div class="container99">
         <div>
-            <P class="women"><a href="product.html">WOMEN</a></P>
+            <P class="women"><a href="../index.html">WOMEN</a></P>
             <p class="women"><a href="men.html">MEN</a></p>
             <p class="women"><a href="kids.html">KIDS</a></p>
             <p class="women"><a href="life.html">LIFE</a></p>
@@ -28,12 +28,12 @@ function navbar(){
 <div id ="get">
   <a href="product.html">
     
-<img class="logo" src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220629T133918"
+<img id="logo" class="img_logo" src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220629T133918"
 alt="Shopbop">
 </a>
 <span id="span"><a href="cart.html">
  
-  <img src="https://th.bing.com/th/id/OIP.i-QiPKnQKtmhAKn9XyN66wHaHa?w=218&h=218&c=7&r=0&o=5&pid=1.7" id="imagess"alt="" />
+  <img class="img_logo" src="https://th.bing.com/th/id/OIP.i-QiPKnQKtmhAKn9XyN66wHaHa?w=218&h=218&c=7&r=0&o=5&pid=1.7" id="imagess"alt="" />
 
 </a>
 <p style="margin-left:85px ;">SHOPPING BAG</p> 

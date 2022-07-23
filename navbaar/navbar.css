@@ -1,195 +1,209 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.container99 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  position:fixed;
+  margin-top: -10px;
+  color: grey;
+  /* margin-left: 100px; */
+  background-color: white;
+  opacity: .9;
+  padding: 10px;
+}
 
-    .container99{
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        margin: auto;
-        position: fixed;
-        margin-top: -10px;
-        color: grey;
-        /* margin-left: 100px; */
-        background-color: white;
-        opacity: .9;
-        }
-        
-        .container99>div{
-        display: flex;
-        
-        
-        }
-        .aa{
-          font-weight:bold;
-        }
-        .women{
-        margin-right: 30px;
-        margin-left: 20px;
-        font-weight: 10;
-        font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
-    font-size: 13px;
-    letter-spacing: .4px;
-    text-align: center;
-        }
-        .women{
-          background-color: rgb(255, 255, 255);
-        }
-        .women:hover{
-          background-color: rgb(223, 221, 221);
-        }
-        
-        
-        p{
-        margin-right: 30px;
-        margin-left: 20px;
-        font-weight: 10;
-        font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
-    font-size: 13px;
-    letter-spacing: .4px;
-    text-align: center;
-        }
-        
-        a:hover{
-        text-decoration:underline;
-        }
-  .material-symbols-outlined{
-    margin-left: 70px;
-    
-  }
-  
+.container99>div {
+  display: flex;
+
+
+}
+
+.aa {
+  font-weight: bold;
+  margin-right: 30px;
+  margin-left: 20px;
+  font-weight: 10;
+  font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  letter-spacing: .4px;
+  text-align: center;
+}
+
+.women {
+  margin-right: 30px;
+  margin-left: 20px;
+  font-weight: 10;
+  font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  letter-spacing: .4px;
+  text-align: center;
+}
+
+.women {
+  background-color: rgb(255, 255, 255);
+}
+
+.women:hover {
+  background-color: rgb(223, 221, 221);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.material-symbols-outlined {
+  margin-left: 70px;
+
+}
+
 .material-symbols-sharp {
   font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 200,
-  'opsz' 40
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 200,
+    'opsz' 40
 }
 
-#navi{
-width: 100%;
-margin-bottom:300px;
-border: 1px solid gray;
-margin-left: 0px;
-/* display: flex; */
-}
-
-#get{
-justify-content: center;
-/* border: 1mm solid red; */
-width: 100%;
-text-align: center;
-margin: auto;
-display: flex;
-margin-bottom: 60px;
-margin-left: 200px;
-}
-.menu-bar{
-  justify-content:space-between ;
-  /* margin-right: 100px; */
-  margin-bottom: 10px;
+#navi {
+  width: 100%;
+  margin-bottom: 300px;
+  border: 1px solid gray;
+  margin-left: 0px;
+  /* display: flex; */
   
 }
+
+#get {
+  justify-content: center;
+  /* border: 1mm solid red; */
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  margin-bottom: 60px;
+  margin-left: 200px;
+}
+
+.menu-bar {
+  justify-content: space-between;
+  /* margin-right: 100px; */
+  margin-bottom: 10px;
+
+}
+
 /* .menu-bar>ul >li{
 justify-content: space-around;
 } */
-.menu-bar li{
-color: rgb(92, 91, 91);
-font-weight: 10;
-        font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
-    font-size: 13px;
-    letter-spacing: .4px;
-    /* text-align: center; */
-
-}
-.menu-bar ul 
-{
-
-width: 100%;
-margin: auto;
-justify-content: center;
-display: inline-flex;
-list-style: none;
-background: transparent;
-color: rgb(56, 55, 55);
-}
-a{
-text-decoration: none;
-color: rgb(82, 80, 80);
-
-}
-.menu-bar>ul>li>a{
-font-size: 12px;
-margin: 12.5px;
+.menu-bar li {
+  color: rgb(92, 91, 91);
+  font-weight: 10;
+  font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  letter-spacing: .4px;
+  /* text-align: center; */
 
 }
 
-.menu-bar ul li a{
-text-decoration: none;
-font-size: 17px;   
-color: rgb(119, 117, 117);
-justify-content: space-between;
+.menu-bar ul {
 
-}
-.what,.menu-bar ul li:hover
-{
-background: transparent;
-border-radius: 3px;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  display: inline-flex;
+  list-style: none;
+  background: transparent;
+  color: rgb(56, 55, 55);
 }
 
-.sub-menu-1
-{
-display: none;
-height: 250px;
-width:500px;
+a {
+  text-decoration: none;
+  color: rgb(82, 80, 80);
 
 }
-.menu-bar>ul>li>div{
-color: white;
+
+.menu-bar>ul>li>a {
+  font-size: 12px;
+  margin: 12.5px;
 
 }
-.menu-bar ul li:hover .sub-menu-1
-{
-display: block;
-position: absolute;
-/* background-image: linear-gradient(to right,rgb(205, 200, 200),10%, rgb(112, 115, 114),10%,rgb(205, 200, 200)); */
-background-color: #f8f7f7;
-}
 
-.menu-bar ul li:hover .sub-menu-1 ul
-{
-display: block;
-margin: 10px;
-/* color: white; */
-}
-.menu-bar ul li:hover .sub-menu-1 ul a:hover
-{   
-
-/* color: grey; */
-color: black;
-}
-
-#search{
-height: 18px;
-width: 18px;
+.menu-bar ul li a {
+  text-decoration: none;
+  font-size: 17px;
+  color: rgb(119, 117, 117);
+  justify-content: space-between;
 
 }
-img{
+
+.what,
+.menu-bar ul li:hover {
+  background: transparent;
+  border-radius: 3px;
+}
+
+.sub-menu-1 {
+  display: none;
+  height: 250px;
+  width: 500px;
+
+}
+
+.menu-bar>ul>li>div {
+  color: white;
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  /* background-image: linear-gradient(to right,rgb(205, 200, 200),10%, rgb(112, 115, 114),10%,rgb(205, 200, 200)); */
+  background-color: #f8f7f7;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+  display: block;
+  margin: 10px;
+  /* color: white; */
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul a:hover {
+
+  /* color: grey; */
+  color: black;
+}
+
+#search {
+  height: 18px;
+  width: 18px;
+
+}
+
+.img_logo{
   margin-top: 40px;
   height: 55px;
   width: 260px;
   margin-left: 300px;
 }
-#imagess{
+
+#imagess {
   height: 45px;
-  width:50px;
-  
- 
+  width: 50px;
+
+
   margin-left: 80px;
-  
+
 }
-body{
-  margin:0;
-  padding:0;
+
+body {
+  margin: 0;
+  padding: 0;
 }
-#get>span{
+
+#get>span {
   justify-content: space-around;
   margin: auto;
   /* margin-left: 600px; */
