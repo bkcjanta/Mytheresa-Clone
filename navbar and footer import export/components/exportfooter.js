@@ -70,12 +70,12 @@ function footer(){
     </div>
 
         <!-- payment method strip starts -->
-    <hr>
+    
         <div id="footer_paymentmethods">
             <div class="paymentMethods-1">
                <p class="p"> payment methods:</p>
                <a href="https://www.mytheresa.com/int_en/customer-care/payment/" target="_blank">
-                <img src="https://www.naturesbasket.co.in/Images/icons-card-payments-mode.png" alt=""> 
+                <img src="https://www.naturesbasket.co.in/Images/icons-card-payments-mode.png" id="hr" alt=""> 
             </a>
             </div>
              <div class="paymentMethods-1">
@@ -83,7 +83,7 @@ function footer(){
                 <a href="https://www.mytheresa.com/int_en/customer-care/shipping/"></a>
             </div> 
         </div>
-    <hr>
+    
     <!-- payment methods ends  -->
     <div class="footer_copy">
         <div clss="copy">
