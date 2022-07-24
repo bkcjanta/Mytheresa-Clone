@@ -4,6 +4,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="icon" href="https://www.mytheresa.com/skin/frontend/mytheresa/default/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="https://www.mytheresa.com/skin/frontend/mytheresa/default/favicon.ico" type="image/x-icon" />
 </head>
 <style>
     #navbar{
@@ -214,21 +216,21 @@
     <div id="bottom1">
           <div><p>YOUR SHOPPING BAG</p></div>
           <div>
-           <button>PROCEED TO CHECKOUT</button>
+           <button id="proceed">PROCEED TO CHECKOUT</button>
            <div>
-            <p>Price-€ 1,765.00</p>
+            <p>Price-€ 2505</p>
             <p>Quantity-1</p>
-            <p>Subtotal-€ 1,765.00</p>
+            <p>Subtotal-€ 2505</p>
            </div>
           </div>
     </div>
     <div id="product">
         <div>
-            <img src="https://img.mytheresa.com/240/240/90/jpeg/catalog/product/a6/P00707133.jpg" alt="">
+            <img src="https://img.mytheresa.com/560/560/33/jpeg/catalog/product/28/P00709811_d2.jpg" alt="">
         </div>
         <div>
-            <p>BOTTEGA VENETA</p>
-            <p>Cassette leather shoulder bag</p>
+            <p>ILEANA MAKRI</p>
+            <p>18kt gold earrings with amethysts</p>
             <p>One size fits all</p>
             <p>Item No.:P00707133</p><br>
         </div>
@@ -253,4 +255,10 @@
     </div>
     
 </body>
+<script>
+    document.getElementById("proceed").addEventListener("click",goto);
+    function goto(){
+        window.location.href="delivery.html";
+    }
+</script>
 </html>

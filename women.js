@@ -1056,6 +1056,7 @@ function displaydata(newarrivalsData){
     let cart=document.createElement("button")
       cart.innerText="Add to Cart"
     cart.id="cartbutton"
+
       
       cart.addEventListener("click",function(){
           addedcartfun(elem)
@@ -1070,4 +1071,5 @@ let addedcart=JSON.parse(localStorage.getItem("addedcart"))||[]
 function addedcartfun(elem){
     addedcart.push(elem)
     localStorage.setItem("addedcart",JSON.stringify(addedcart))
+    window.location.href="cart.html"
 }

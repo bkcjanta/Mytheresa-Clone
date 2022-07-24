@@ -38,7 +38,7 @@ function validate(event){
     if(name!="" && expiry_date!="" && card_cvv!=""){
         append();
         setTimeout(()=>{
-            window.location="payment.html";
+            window.location="confirm.html";
         },5000)
     }else{
         alert("please fill the card details correctly!")

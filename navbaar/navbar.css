@@ -13,7 +13,7 @@ body{
   /* margin-left: 100px; */
   background-color: white;
   opacity: .9;
-  padding: 10px;
+  
 }
 
 .container99>div {
@@ -70,7 +70,7 @@ a:hover {
 
 #navi {
   width: 100%;
-  margin-bottom: 300px;
+  margin-bottom:20px;
   border: 1px solid gray;
   margin-left: 0px;
   /* display: flex; */
