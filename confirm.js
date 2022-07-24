@@ -23,15 +23,13 @@ document.getElementById("add-change").addEventListener("click", () => {
 
 
 let total_products = document.getElementById("total-products");
-for (let i = 0; i < 4; i++) {
-
-    let product = document.createElement("div");
+let product = document.createElement("div");
     product.setAttribute("id", "product");
     let img = document.createElement('img');
-    img.src = "https://img.mytheresa.com/240/240/90/jpeg/catalog/product/d8/P00665710.jpg";
+    img.src = "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/28/P00709811_d2.jpg";
     let p_details = document.createElement('div');
     let pname = document.createElement('p');
-    pname.innerText = "'90s suede shoulder bag";
+    pname.innerText = "'18kt gold earrings with amethysts";
     let psize = document.createElement('p');
     psize.innerText = "Size:-" + "One size fits all";
     p_details.append(pname, psize);
@@ -39,10 +37,16 @@ for (let i = 0; i < 4; i++) {
     img_detail.setAttribute("id", "img_detail")
     img_detail.append(img, p_details);
     let price = document.createElement('p');
-    price.innerText = "€ " + "775.00";
+    price.innerText = "€ " + "2505.00";
     product.append(img_detail, price);
     total_products.append(product)
 
+
+document.getElementById("checkout").addEventListener("click",check);
+
+function check(){
+      alert("Your order is successfully placed. Thank you!");
+      window.location.href="index.html"
 }
 
 

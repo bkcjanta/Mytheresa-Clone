@@ -2,7 +2,7 @@ function navbar(){
     return` <div class="gr">
     <div class="container99">
         <div>
-            <P class="women"><a href="../index.html">WOMEN</a></P>
+            <P class="women"><a href="../women.html">WOMEN</a></P>
             <p class="women"><a href="men.html">MEN</a></p>
             <p class="women"><a href="kids.html">KIDS</a></p>
             <p class="women"><a href="life.html">LIFE</a></p>
