@@ -12,10 +12,9 @@ ___
 ___
 
 # **🔗 Deployed Link**
-_This project is deployed on netlify here - [Mytheresa website clone](www.mytheresa.com)_
+_This project is deployed on netlify here - [Mytheresa website clone](https://radiant-pika-e73d3b.netlify.app/)_
 ___
 
-# **Snapshots**
 
 ___
 ![Logo](https://www.absence.io/assets/images/logos/logo_mytheresa.png)
