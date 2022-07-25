@@ -39,7 +39,7 @@ function validate(event){
         append();
         setTimeout(()=>{
             window.location="confirm.html";
-        },5000)
+        },3000)
     }else{
         alert("please fill the card details correctly!")
     }

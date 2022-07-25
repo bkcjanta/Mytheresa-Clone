@@ -24,29 +24,43 @@ document.getElementById("add-change").addEventListener("click", () => {
 
 let total_products = document.getElementById("total-products");
 let product = document.createElement("div");
-    product.setAttribute("id", "product");
+product.setAttribute("id", "product");
+let img = document.createElement('img');
+img.src = "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/28/P00709811_d2.jpg";
+let p_details = document.createElement('div');
+let pname = document.createElement('p');
+pname.innerText = "'18kt gold earrings with amethysts";
+let psize = document.createElement('p');
+psize.innerText = "Size:-" + "One size fits all";
+p_details.append(pname, psize);
+let img_detail = document.createElement('div');
+img_detail.setAttribute("id", "img_detail")
+img_detail.append(img, p_details);
+let price = document.createElement('p');
+price.innerText = "€ " + "2505.00";
+product.append(img_detail, price);
+total_products.append(product)
+
+
+
+let container = document.getElementById("processing");
+function append() {
+    container.innerHTML = null;
     let img = document.createElement('img');
-    img.src = "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/28/P00709811_d2.jpg";
-    let p_details = document.createElement('div');
-    let pname = document.createElement('p');
-    pname.innerText = "'18kt gold earrings with amethysts";
-    let psize = document.createElement('p');
-    psize.innerText = "Size:-" + "One size fits all";
-    p_details.append(pname, psize);
-    let img_detail = document.createElement('div');
-    img_detail.setAttribute("id", "img_detail")
-    img_detail.append(img, p_details);
-    let price = document.createElement('p');
-    price.innerText = "€ " + "2505.00";
-    product.append(img_detail, price);
-    total_products.append(product)
+    img.src = "processing_gif.gif";
+    let p = document.createElement('p');
+    p.innerText = "connecting to payment";
+    container.append(img, p);
+}
 
+document.getElementById("checkout").addEventListener("click", check);
 
-document.getElementById("checkout").addEventListener("click",check);
-
-function check(){
-      alert("Your order is successfully placed. Thank you!");
-      window.location.href="index.html"
+function check() {
+    append();
+    setTimeout(()=>{
+        window.location.href="authentication.html";
+    },3000)
+    
 }
 
 

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #main {
+            width: 40%;
+            height: 400px;
+            border: 1px solid rgb(81, 80, 80);
+            margin: auto;
+
+        }
+
+        #auth {
+            text-align: center;
+        }
+
+        h1 {
+            background-color: rgb(56, 148, 188);
+            text-align: center;
+            margin-top: 0px;
+            color: white;
+            padding: 5px;
+        }
+
+        #otp-msg {
+            width: 90%;
+            margin: auto;
+            text-align: center;
+            border: 1px solid green;
+            color: green;
+            background-color: rgb(235, 252, 235);
+            padding: 8px;
+            margin-top: 50px;
+            margin-bottom: 40px;
+        }
+
+        #en {
+            width: 90%;
+            margin-left: 15px;
+        }
+
+        input {
+            width: 88%;
+            outline: none;
+            margin-left: 16px;
+            padding: 10px;
+            margin-bottom: 30px;
+        }
+
+        #btn {
+            width: 90%;
+            margin: auto;
+        }
+
+        #cancel {
+            width: 30%;
+            margin-left: -5px;
+            border: 1px solid rgb(56, 148, 188);
+            background-color: white;
+            color: rgb(56, 148, 188);
+
+        }
+
+        #submit {
+            width: 70%;
+            background-color: rgb(56, 148, 188);
+            border: 0px;
+            color: white;
+
+
+        }
+
+        #btn>button {
+            padding: 15px;
+
+        }
+
+        #processing {
+            width: 210px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            float: right;
+            margin-top: px;
+            margin-right: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3 id="auth">AUTHENTICATE TRANSACTION</h3>
+    <div id="main">
+        <h1 id="otp">OTP</h1>
+        <div>
+            <p id="otp-msg">OTP successfully sent to your registered mobile number</p>
+            <h3 id="en">Enter OTP</h3>
+            <input type="tel" name="" id="in" maxlength="6" placeholder="XXXXXX" value="">
+            <div id="btn">
+                <button id="cancel">Cancel</button>
+                <button id="submit"> Submit</button>
+            </div>
+        </div>
+        <div id="processing">
+            <!-- append processing gif -->
+        </div>
+    </div>
+
+</body>
+<script>
+    let container = document.getElementById("processing");
+    function append() {
+        container.innerHTML = null;
+        let img = document.createElement('img');
+        img.src = "processing_gif.gif";
+        let p = document.createElement('p');
+        p.innerText = "Processing....";
+        p.style.color = "green"
+        container.append(img, p);
+    }
+
+    document.getElementById("submit").addEventListener("click", check);
+    document.getElementById("cancel").addEventListener("click", Cancel);
+
+    function Cancel(){
+        window.location.href = "payment.html";
+    }
+
+    function check() {
+        if(document.getElementById("in").value=="" ){
+            alert("Please Enter Your OTP correctly")
+        }else if( document.getElementById("in").value.length<6){
+            alert("Please Enter Your OTP correctly")
+        }else{
+            append();
+        setTimeout(() => {
+            alert("Thank You!, Your Order is successfully placed.")
+            window.location.href = "index.html";
+        }, 3000)
+
+        }
+       
+    }
+
+</script>
+
+</html>
