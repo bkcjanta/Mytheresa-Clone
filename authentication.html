@@ -139,8 +139,12 @@
         }else{
             append();
         setTimeout(() => {
-            alert("Thank You!, Your Order is successfully placed.")
+            setTimeout(()=>{
+                alert("Thank You!, Your Order is successfully placed.")
             window.location.href = "index.html";
+            },1000)
+            
+            container.innerHTML = "Payment done.";
         }, 3000)
 
         }
