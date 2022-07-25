@@ -228,9 +228,13 @@ a {
     float: right;
     margin-top: -35px;
     margin-right: 50px;
+    color: green;
 }
 #processing>img{
     width: 50px;
     height: 30px;
     margin-top: 5px;
+}
+#processing>p{
+    color: green;
 }
