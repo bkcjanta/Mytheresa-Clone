@@ -12,7 +12,7 @@ ___
 ___
 
 # **🔗 Deployed Link**
-_This project is deployed on netlify here - [Mytheresa website clone](https://radiant-pika-e73d3b.netlify.app/)_
+_This project is deployed on netlify here - [Mytheresa website clone](https://62de61776f2f61211ea878f5--effulgent-lokum-4dc9e5.netlify.app/)_
 ___
 
 
