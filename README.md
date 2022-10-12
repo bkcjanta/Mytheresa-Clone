@@ -12,7 +12,7 @@ ___
 ___
 
 # **🔗 Deployed Link**
-_This project is deployed on netlify here - [Mytheresa website clone](https://mytheresa-clone-app.netlify.app)_
+_This project is deployed on netlify here - [Mytheresa website clone](https://colneofmytheresa.netlify.app)_
 ___
 
 
